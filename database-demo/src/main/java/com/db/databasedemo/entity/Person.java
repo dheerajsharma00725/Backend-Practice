@@ -45,6 +45,6 @@ public class Person {
 	}
 	@Override
 	public String toString() {
-		return "\nPerson [id=" + id + ", name=" + name + ", location=" + location + ", dob=" + dob + "]";
+		return "\n Person [id=" + id + ", name=" + name + ", location=" + location + ", dob=" + dob + "]";
 	}
 }
