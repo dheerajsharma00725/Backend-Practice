@@ -49,4 +49,10 @@ public class CourseRepositoryTest {
 		Course course1 =cr.findById(10001L);
 		assertEquals("Updated Name", course1.getName());
 	}
+	
+	@Test
+	@DirtiesContext
+	public void playWithEntityManager() {
+		cr.playWithEntityManager();
+	}
 }

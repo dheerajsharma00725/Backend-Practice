@@ -28,6 +28,7 @@ public class DemoApplication implements CommandLineRunner{
 		
 //		cr.deleteById(10001L);
 		cr.save(new Course("Demo Insert"));
+		cr.playWithEntityManager();
 	}
 
 }
